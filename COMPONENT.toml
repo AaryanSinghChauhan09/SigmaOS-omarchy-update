@@ -3,7 +3,7 @@ name = "SigmaOS-omarchy-update"
 tier = 2
 stability = "beta"
 language = "rust"
-description = "Update manager for SigmaOS inspired by Omarchy Linux"
+description = "System update manager"
 upstream = []
 
 [contract]
