@@ -3,12 +3,12 @@ name = "SigmaOS-omarchy-update"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "omarchy-update component"
+description = "Update manager for SigmaOS inspired by Omarchy Linux"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
