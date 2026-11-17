@@ -12,5 +12,5 @@ depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+test_evidence = "cargo test --offline: 6 lib + 1 integration pass; Omarchy updater (channels stable/beta/edge, update kinds, snapshot+rollback, migration scripts, reboot detection) + working CLI"
+next_milestone = "sigpkg/pacman backend for real package ops"
